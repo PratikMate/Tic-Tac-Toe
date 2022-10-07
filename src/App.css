@@ -1,16 +1,16 @@
 .Head {
   display: flex;
-  gap: 50%;
+  gap: 20px;
   font-family: sans-serif;
   text-align: center;
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
 .App {
   font-family: sans-serif;
   text-align: center;
-  width: 30%;
+  width: 40%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
