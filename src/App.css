@@ -1,0 +1,41 @@
+.Head {
+  display: flex;
+  gap: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.App>div {
+  border: 2px solid rgb(0, 183, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(0, 183, 255);
+}
+button{
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.btn{
+  margin-top: 20px;
+  text-align: center;
+}
